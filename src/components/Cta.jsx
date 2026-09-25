@@ -27,6 +27,22 @@ export default function Cta() {
         <span className="btn-arrow" aria-hidden="true">→</span>
       </a>
 
+      <div className="cta-social">
+        <a href="https://www.instagram.com/lpuiati/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" />
+          </svg>
+        </a>
+        <a href="mailto:lucasvideomaker278@gmail.com" aria-label="E-mail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <path d="m3 7 9 6 9-6" />
+          </svg>
+        </a>
+      </div>
+
       <p className="cta-foot" data-foot>© {new Date().getFullYear()} Lucas Puiati — Filmmaker</p>
     </section>
   );

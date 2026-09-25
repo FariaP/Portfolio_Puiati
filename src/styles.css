@@ -273,6 +273,14 @@ h1, h2, h3 { font-family: var(--display); font-weight: 300; line-height: 1.05; }
 .btn:hover .btn-arrow, .btn:focus-visible .btn-arrow { transform: translateX(0.35rem) rotate(-45deg); }
 .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
+.cta-social { position: relative; display: flex; gap: 1.2rem; margin-top: -1.5rem; }
+.cta-social a {
+  display: grid; place-items: center; width: 3rem; height: 3rem;
+  border: 1px solid rgba(242, 237, 228, 0.35); border-radius: 50%;
+  transition: border-color 0.4s, color 0.4s, transform 0.4s;
+}
+.cta-social svg { width: 1.3rem; height: 1.3rem; }
+.cta-social a:hover, .cta-social a:focus-visible { border-color: var(--accent); color: var(--accent); transform: translateY(-3px); }
 .cta-foot { position: absolute; bottom: 2rem; font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--muted); }
 
 /* ───────── Mobile ───────── */
