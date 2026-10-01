@@ -281,7 +281,10 @@ h1, h2, h3 { font-family: var(--display); font-weight: 300; line-height: 1.05; }
 }
 .cta-social svg { width: 1.3rem; height: 1.3rem; }
 .cta-social a:hover, .cta-social a:focus-visible { border-color: var(--accent); color: var(--accent); transform: translateY(-3px); }
-.cta-foot { position: absolute; bottom: 2rem; font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--muted); }
+.cta-foot { position: absolute; bottom: 1.2rem; display: flex; flex-direction: column; align-items: center; gap: 0.4rem; font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--muted); }
+.cta-credit { display: flex; align-items: center; gap: 0.6rem; opacity: 0.8; transition: opacity 0.4s, transform 0.4s; }
+.cta-credit img { display: block; height: 3.5rem; width: auto; border-radius: 6px; }
+.cta-credit:hover, .cta-credit:focus-visible { opacity: 1; transform: translateY(-2px); }
 
 /* ───────── Mobile ───────── */
 @media (max-width: 767px) {

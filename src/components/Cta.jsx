@@ -43,7 +43,13 @@ export default function Cta() {
         </a>
       </div>
 
-      <p className="cta-foot" data-foot>© {new Date().getFullYear()} Lucas Puiati — Filmmaker</p>
+      <footer className="cta-foot" data-foot>
+        <p>© {new Date().getFullYear()} Lucas Puiati — Filmmaker</p>
+        <a className="cta-credit" href="https://pontiweb.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Site feito por Ponti — Sites e Sistemas sob Medida">
+          <span>Site feito por</span>
+          <img src="/logo_ponti.jpeg" alt="Ponti — Sites e Sistemas sob Medida" loading="lazy" />
+        </a>
+      </footer>
     </section>
   );
 }
