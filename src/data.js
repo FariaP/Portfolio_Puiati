@@ -21,7 +21,7 @@ export const PLANS = [
   {
     name: "Alto Padrão",
     tagline: "Cobertura completa do grande dia, com padrão cinematográfico.",
-    price: 2999,
+    price: 3499,
     featured: true,
     items: [
       "Cerimônia completa na igreja",
