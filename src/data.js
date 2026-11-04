@@ -15,8 +15,8 @@ export const PLANS = [
   {
     name: "Intermediário",
     tagline: "Equilíbrio ideal entre qualidade profissional e investimento.",
-    price: 1899,
-    items: ["Cerimônia completa", "Cobertura da festa", "Captação profissional", "Edição profissional", "Vídeo final com duração média", "Entrega digital em alta resolução"],
+    price: 1999,
+    items: ["Cerimônia completa", "Cobertura da festa", "Captação profissional", "Edição profissional", "Vídeo final com duração média", "Entrega digital em alta resolução", { text: "Adicional de filmagem para pré wedding - R$ 550,00", bonus: true}],
   },
   {
     name: "Alto Padrão",
